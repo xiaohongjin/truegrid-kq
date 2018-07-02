@@ -77,7 +77,11 @@
     data.forEach((row, index) => {
       const children = row[childrenProp];
       const childrenLen = Object.prototype.toString.call(children).slice(8, -1) === 'Array' ? children.length : 0;
-      bodyData.push({
+     //存在pId=0时第一级菜单展开
+      if(row.pId!='undefined'&&row.pId!=null&&row.pId == '0'){
+        isFold = false;
+      }
+     bodyData.push({
         _isHover: false,
         _isExpanded: false,
         _isChecked: false,
