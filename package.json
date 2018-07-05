@@ -1,6 +1,6 @@
 {
   "name": "vue-table-with-tree-grid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A table (with tree-grid) component for Vue.js 2.0. (Its style extends iView)",
   "keywords": [
     "vue",
@@ -10,11 +10,11 @@
     "vue-jsx"
   ],
   "author": "GaoQi <taki.gaoqi@outlook.com>",
-  "homepage": "https://github.com/xiaohongjin/treegrid-kq",
-  "bugs": "https://github.com/xiaohongjin/treegrid-kq/issues",
+  "homepage": "https://github.com/l-s-l/treegrid-kq",
+  "bugs": "https://github.com/l-s-l/treegrid-kq/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiaohongjin/treegrid-kq"
+    "url": "https://github.com/l-s-l/treegrid-kq"
   },
   "main": "lib/vue-table-with-tree-grid.js",
   "files": [
@@ -81,5 +81,7 @@
     "> 1%",
     "last 2 versions",
     "not ie < 9"
-  ]
+  ],
+  "_from": "https://github.com/l-s-l/treegrid-kq.git",
+  "_resolved": "https://github.com/l-s-l/treegrid-kq.git#master"
 }
